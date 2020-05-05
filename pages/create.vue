@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>Events</h1>
+    <h1>Create an Event</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Index'
+  name: 'Create'
 };
 </script>
 
