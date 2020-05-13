@@ -6,7 +6,18 @@
 
 <script>
 export default {
-  name: 'Index'
+  head() {
+    return {
+      title: 'List of all Events',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'List of all events'
+        }
+      ]
+    };
+  }
 };
 </script>
 
