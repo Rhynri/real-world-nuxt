@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "db": "json-server --watch db.json --port 3100 --delay 1000",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
